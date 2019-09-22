@@ -1,0 +1,29 @@
+{
+  "name": "love-letter",
+  "version": "1.0.0",
+  "description": "A love letter simulator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./index.ts",
+    "start:dev": "ts-node-dev ./index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jasrusable/love-letter.git"
+  },
+  "keywords": [
+    "love-letter",
+    "card-game"
+  ],
+  "author": "Jason Russell & Nicol Vojacek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasrusable/love-letter/issues"
+  },
+  "homepage": "https://github.com/jasrusable/love-letter#readme",
+  "dependencies": {
+    "ts-node-dev": "^1.0.0-pre.43",
+    "typescript": "^3.6.3"
+  }
+}
